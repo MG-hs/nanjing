@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/library/library",
+    "pages/library/librarySeat/librarySeat",
+    "pages/info/info",
+    "pages/info/login/login",
+    "pages/info/admin/IDManagement/IDManagement",
+
+    "pages/logs/logs",
+    "pages/guize/guize"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#cccccc",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#f1f1f1",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/library/library",
+        "text": "图书馆",
+        "iconPath": "images/tabs/library.png",
+        "selectedIconPath": "images/tabs/library-h.png"
+      },
+      {
+        "pagePath": "pages/guize/guize",
+        "text": "使用规则",
+        "iconPath": "images/tabs/guize.png",
+        "selectedIconPath": "images/tabs/guize-h.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "我的",
+        "iconPath": "images/tabs/mine.png",
+        "selectedIconPath": "images/tabs/mine-h.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

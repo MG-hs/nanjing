@@ -1,0 +1,6 @@
+.itemView{padding:10rpx 0; border-bottom:1px #eee dashed; display: flex; justify-content: space-between}
+.itemView .pic image{ width:230rpx; height: 150rpx; display: block;}
+.itemView .txt{width:435rpx;}
+.itemView .txt .h3{ font-size: 30rpx; color:#333; height: 110rpx;}
+.itemView .txt .info{ font-size: 23rpx; color:#666}
+.itemView .txt .info text{ font-size: 27rpx;}

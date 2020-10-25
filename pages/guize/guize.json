@@ -1,0 +1,12 @@
+{
+  
+  "usingComponents": {
+    "headerView":"/component/headerView/headerView",
+    "footerView":"/component/footerView/footerView"
+  
+
+},
+"navigationBarTitleText": "规则",
+  "navigationBarBackgroundColor":"#cc3"
+
+}

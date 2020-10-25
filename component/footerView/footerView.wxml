@@ -1,0 +1,5 @@
+
+<view class="footer">
+  <image src="/images/xiaohui.png"></image>
+  <text>- 不是谁都能用的小程序 -</text>
+</view>

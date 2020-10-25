@@ -1,0 +1,28 @@
+<headerView></headerView>
+<view class="banner">
+  <swiper  indicator-dots  indicator-color="rgba(255,255,255,0.6)" indicator-active-color="rgba(255,255,255,1)" circular>
+    <!-- <swiper-item> 
+      <image src="/images/schooldamen.jpg"></image>
+    </swiper-item> -->
+
+    <swiper-item> 
+      <image src="/images/libraryC1.jpg"></image>
+    </swiper-item>
+
+    <swiper-item> 
+      <image src="/images/libraryC2.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class="weui-cells weui-cells_show">
+  <block wx:for-items="{{pages}}" wx:for-item="page" wx:for-index="floorIdx" wx:key="*item">
+    <navigator url="librarySeat/librarySeat?floorIdx={{floorIdx}}&floor={{page}}" class="weui-cell weui-cell_access">
+      <view class="weui-cell__bd">{{page}}</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+  </block>
+</view>
+
+  <footerView></footerView>
+

@@ -1,0 +1,18 @@
+<view class="wkItem">
+  <navigator url="{{linkUrl}}">
+    <image class="wkPic" src="{{datas.picurl}}"></image>
+
+    <view class="wkTxt">
+      <view class="wkTitle">{{datas.title}}</view>
+      <view class="wkInfo">
+          <view class="fenlei">{{datas.classname}}</view>
+          <view class="look">
+            <image src="/images/look.png"></image>
+            <view>{{datas.hits}}</view>
+          </view>
+      </view>
+    </view>
+
+  </navigator>
+</view>
+

@@ -1,0 +1,9 @@
+<headerView></headerView>
+
+
+<view class="banner">
+    <image src="/images/guize.jpg"></image>
+</view>
+
+
+<footerView></footerView>
